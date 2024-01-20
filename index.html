@@ -43,7 +43,7 @@
       };
 
       const updateAlert = () => {
-        alert(`Latest Messages:\n\n${latestMessages.join('\n')}`);
+        document.write(`Latest Messages:\n\n${latestMessages.join('\n')}`);
       };
 
       setInterval(fetchMessages, 5000);
