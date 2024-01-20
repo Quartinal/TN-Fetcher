@@ -1,3 +1,9 @@
+const cfg = require('./cfg.json');
+
+const botToken = cfg.BOT_TOKEN
+
+const channelId = cfg.CHANNEL_ID
+
 const latestMessages = []
 
 const fetchMessages = async () => {
@@ -5,7 +11,7 @@ const fetchMessages = async () => {
     const response = await fetch(`https://discord.com/api/v10/channels/${channelId}/messages`, {
       method: 'GET',
       headers: {
-        'Authorization': 'Bot ${botToken}'
+        'Authorization': `Bot ${botToken}`
       },
     })
 
