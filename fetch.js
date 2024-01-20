@@ -1,4 +1,4 @@
-const cfg = require('./cfg.json');
+const cfg = require('./cfg.json')
 
 const botToken = cfg.BOT_TOKEN
 
