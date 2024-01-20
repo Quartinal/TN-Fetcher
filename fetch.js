@@ -1,6 +1,3 @@
-const botToken = 'MTE5ODMwNTQxNDU4MDgxNzk4Mg.GiRBJ4.qiMqtvkGKUxo3w0V7iWL9rtKbFkeKx2STIBtl4'
-const channelId = '419123358698045453.946295498959106088'
-
 const latestMessages = []
 
 const fetchMessages = async () => {
